@@ -1,0 +1,44 @@
+
+body {
+    padding-top: 10px;
+}
+
+.container {
+    margin:auto;
+    padding:0;
+}
+
+[class*="col"] {
+    box-sizing: border-box;
+}
+[class*="col"] div {
+    width: 100%;
+    height:0;
+    padding-bottom:100%;
+}
+.row {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.noir-clair {
+    border: 1px solid grey;
+    background-color:#333333;
+}
+.j {
+    border: 1px solid grey;
+    background-color: #FFCC00;
+}
+.n {
+    border: 1px solid grey;
+    background-color: black;
+}
+.b {
+    border: 1px solid grey;
+    background-color:white;
+}
+.o {
+    border: 1px solid grey;
+    background-color: #FF7F2A ;
+}
